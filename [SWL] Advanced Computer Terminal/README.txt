@@ -1,6 +1,6 @@
-Mod Name:		[SWL] Advanced Computer Terminal
-Author:			Sergey "Rianon" Pugovkin
-Version:		1.3
+Mod Name:	[SWL] Advanced Computer Terminal
+Author:		Sergey "Rianon" Pugovkin
+Version:	1.3
 Distributor:	https://tsw.curseforge.com/projects/swl-advanced-computer-terminal
 
 
@@ -21,15 +21,15 @@ And of course you can apply different skins for the interface! Skins are importa
 
 How you can do all this stuff. There are 2 menus, hided by default, one invoked by holding the "Alt" button, and another by holding "Ctrl". So you just hold "Alt"/"Ctrl" and hit the right key. Here the shortcuts list:
 
-    Alt+R : root
-    Alt+H : hint
-	Alt+L : help
-    Alt+Q : quit
-    Ctrl+D : Dragon skin
-    Ctrl+I : Illuminati skin
-    Ctrl+T : Templars skin
-    Ctrl+L : Bloody Valentine skin
-    Ctrl+S : Standard (green/black) skin
+* Alt+R : root
+* Alt+H : hint
+* Alt+L : help
+* Alt+Q : quit
+* Ctrl+D : Dragon skin
+* Ctrl+I : Illuminati skin
+* Ctrl+T : Templars skin
+* Ctrl+L : Bloody Valentine skin
+* Ctrl+S : Standard (green/black) skin
 
 
 INSTALLATION
