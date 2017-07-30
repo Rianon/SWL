@@ -1,4 +1,9 @@
-﻿import com.Utils.Faction;
+﻿/*
+Copyright © 2017 Sergey "Rianon" Pugovkin. All Rights Reserved.
+Copyright © 2012 Funcom. All Rights Reserved.
+This code partially based on Funcom User Interface Source Code.
+*/
+import com.Utils.Faction;
 import com.GameInterface.Game.Character;
 import com.GameInterface.DistributedValue;
 

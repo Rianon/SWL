@@ -1,6 +1,6 @@
 Mod Name:		[SWL] Advanced Computer Terminal
 Author:			Sergey "Rianon" Pugovkin
-Version:		1.2
+Version:		1.3
 Distributor:	https://tsw.curseforge.com/projects/swl-advanced-computer-terminal
 
 
@@ -15,7 +15,7 @@ You got a rather big terminal with "neutral" design. In this game we're using ma
 
 I wanted to get rid of that dread arrows (as probably most of you), and it was almost done, but... almost. Not completely. You will not see them anywhere except of some documents in "The Nursery". Do not attempt to click on arrows, they're only signs where you must scroll and in what direction, up or down. Scroll by pressing Up/Down arrows on keyboard or PgUp/PgDown (it scrolls by 1 line of text).
 
-You can input "root", "hint" and "quit" commands with shortcuts, so you don't need to actually type them. I wasn't include "help" command shortcut, because you need to use it may be once in a whole game, after that you simply know the rules.
+You can input "root", "hint", "help" and "quit" commands with shortcuts, so you don't need to actually type them.
 
 And of course you can apply different skins for the interface! Skins are important. Because they're... well, they are cool, it quite enough. :)
 
@@ -23,6 +23,7 @@ How you can do all this stuff. There are 2 menus, hided by default, one invoked 
 
     Alt+R : root
     Alt+H : hint
+	Alt+L : help
     Alt+Q : quit
     Ctrl+D : Dragon skin
     Ctrl+I : Illuminati skin
@@ -33,22 +34,27 @@ How you can do all this stuff. There are 2 menus, hided by default, one invoked 
 
 INSTALLATION
 ------------
-Just put the "ComputerPuzzle.swf" in %SWL_PATH%\Data\GUI\Custom\Flash, it'll override an original interface. Reload UI if ingame.
+Unzip and put the files in %SWL_PATH%\Data\GUI\Custom\Flash, it'll override an original interface. Reload UI if ingame.
 
 
 UNINSTALLATION 
 --------------
-Delete "ComputerPuzzle.swf" from %SWL_PATH%\Data\GUI\Custom\Flash. Reload UI if ingame.
+Delete folder "AdvancedComputerTerminal" and file "ComputerPuzzle.swf" from %SWL_PATH%\Data\GUI\Custom\Flash. Reload UI if ingame.
 
 
 HISTORY
 -------
+v1.3
+* Implement ability to autosave last used skin. Just choose the skin you like, and it always would be used by default.
+* Add close button at the top right corner of interface window. Personally I like more hardcore, RP approach, but people wants it too much, so - you want it, you got it. :)
+* Add "help" shortcut, use Alt+L. Probably you'll need this only once in all game, but anyway...
+
 v1.2
-Revert default skin to classic green/black and made it choosable again.
-Cleaned interface by adding menu system (you must hold Alt/Ctrl to show menu and then hit corresponding key, similar to Norton Commander).
+* Revert default skin to classic green/black and made it choosable again.
+* Cleaned interface by adding menu system (you must hold Alt/Ctrl to show menu and then hit corresponding key, similar to Norton Commander).
 
 v1.1
-Added autoskin ability. If the game tells interface to use particular skin, then it use it. If not, the interface search for player faction and applies skin according to that. All seems working now, but need futher testing by members of another factions.
+* Added autoskin ability. If the game tells interface to use particular skin, then it use it. If not, the interface search for player faction and applies skin according to that. All seems working now, but need futher testing by members of another factions.
 
 v1.0
-Initial release.
+* Initial release.
